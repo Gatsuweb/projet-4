@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^1.0.91",
+    "axios": "^1.6.8"
+  }
+}
