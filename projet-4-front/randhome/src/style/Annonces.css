@@ -1,0 +1,22 @@
+.annonce-container {
+    background-color: #458793;
+}
+
+.annonces {
+    background-color: white;
+    margin: 2% 20%;
+}
+
+.data-annonces {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    border: 1px solid black;
+}
+
+.annonces li {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    border: 1px solid #e6a77c;
+}

@@ -2,7 +2,9 @@ import Spline from '@splinetool/react-spline';
 
 function Planete() {
   return (
-    <Spline scene="https://prod.spline.design/xHMa67ntFRxLuuLp/scene.splinecode" />
+    <div className='planete3d'>
+    <Spline scene="https://prod.spline.design/vSHE0VHcqjnwjLAc/scene.splinecode" />
+    </div>
   );
 }
 

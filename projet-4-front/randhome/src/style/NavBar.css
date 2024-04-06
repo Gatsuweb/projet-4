@@ -8,7 +8,7 @@
 .navbar-container ul {
     list-style: none;
     color: white;
-    font-weight: 600;
+    font-weight: 200;
     font-size: 1.2rem;
 }
 
@@ -35,7 +35,7 @@ display:block;
 .ul-navD {
     display: flex;
     gap: 170px;
-    margin-left: 20%;
+    margin-left: 21%;
 }
 
 
@@ -46,7 +46,7 @@ display:block;
 #connect {
     color: black;
     background-color: white;
-    font-weight: 900;
+    font-weight: 600;
     border-radius: 30px;
     padding: 1% 1.5%;
     cursor: pointer;

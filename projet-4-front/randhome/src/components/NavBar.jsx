@@ -24,7 +24,7 @@ function NavBar() {
             <li className="li-anim">PROFIL</li>
           </ul>
           <ul id="connect">
-          <li>CONNECT</li>
+          <li>CONNEXION</li>
           </ul>
       </div>
     );
