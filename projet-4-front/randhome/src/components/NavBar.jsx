@@ -13,7 +13,9 @@ function NavBar() {
         
           <ul className="ul-navG">
             <li><img src={Logo} alt="logo" id="logo-nav" /></li>
+            <Link to="/" style={linkStyle}>
             <li className="li-anim">ACCUEIL</li>
+            </Link>
             <Link to="/Annonces" style={linkStyle}>
             <li className="li-anim">TREKKING</li>
             </Link>

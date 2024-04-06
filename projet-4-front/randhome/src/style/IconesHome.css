@@ -1,0 +1,16 @@
+.icone-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icone {
+    margin-top: 1%;
+    padding-left: 1%;
+    height: 100px;
+}
+
+.textIcone {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}

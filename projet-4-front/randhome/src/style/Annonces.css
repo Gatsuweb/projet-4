@@ -1,9 +1,20 @@
 .annonce-container {
     background-color: #458793;
+    height: 931px;
+    
+}
+
+.title-annonces{
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid white;
 }
 
 .annonces {
-    background-color: white;
     margin: 2% 20%;
 }
 
@@ -11,12 +22,77 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    border: 1px solid black;
+
 }
 
 .annonces li {
+    background-color: white;
     display: flex;
-    justify-content: space-between;
-    padding: 2% 5%;
-    border: 1px solid #e6a77c;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5% 5%;
+    border: 2px solid #e6a77c;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.h3-annonces {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+}
+
+.annonces li:hover {
+    background: #e6a77c;
+    border: 2px solid white;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 25vw;
+    width: 40vw;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    z-index: 0;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 7%;
+    gap: 40px;
+    font-size: 1.2rem;
+}
+
+.modal-desc {
+    border: 1px solid black;
+    padding: 4%;
+}
+
+.modal-header {
+    display: flex;
+    align-items: baseline;
+    gap: 200px;
+}
+
+.close {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    padding-right: 1%;
+    font-size: 2rem;
+
 }
